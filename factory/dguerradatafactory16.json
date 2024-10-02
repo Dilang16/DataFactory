@@ -1,0 +1,9 @@
+{
+	"name": "dguerradatafactory16",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "10ef9ebd-37dc-455b-a122-bbd013ff03e0",
+		"tenantId": "4f6bdde4-1914-44da-ab1b-2bb5f0aed688"
+	}
+}
