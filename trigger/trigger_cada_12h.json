@@ -1,0 +1,25 @@
+{
+	"name": "trigger_cada_12h",
+	"properties": {
+		"description": "Este desencadenador ejecuta el pipeline maestro cada 12 horas.",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline maestro",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 12,
+				"startTime": "2024-10-03T19:44:00",
+				"timeZone": "SA Pacific Standard Time"
+			}
+		}
+	}
+}
